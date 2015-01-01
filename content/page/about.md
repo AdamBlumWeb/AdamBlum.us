@@ -26,10 +26,10 @@ If you’re interested in working with me, send me an email at adam@adamblum.us.
 
 You can also find me at the following places:
 
-* [CodePen](#) for testing and showcasing front-end code
-* [Twitter](#) for ranting and finding good articles on web design.
-* [SoundCloud](#) for my music that I record at home
+* [CodePen](http://codepen.io/AdamBlum/) for testing and showcasing front-end code
+* [Github](https://github.com/AdamBlumWeb) for open-source projects and collaboration
+* [SoundCloud](https://soundcloud.com/adamblummusic) for my music that I record at home
 
 ## Colophon
-The primary typeface used is Georgia, with some Gill Sans and Andale Mono here and there. I created this website from scratch using :HTML:"" and :CSS:"", with some help from :SASS:"" and Grunt.
+The primary typeface used is Georgia, with some Gill Sans and Andale Mono here and there. I created this website from scratch using HTML and CSS, with some help from SASS and Grunt.
 
