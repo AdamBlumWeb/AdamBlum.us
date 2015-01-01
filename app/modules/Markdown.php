@@ -14,7 +14,7 @@ class Markdown {
 		'/_\((.+)\)/' 		=> '<sub>\1</sub>',
 		'/\:\"(.*?)\"\:/' => '<q>\1</q>',                         // quote
 		'/\:(.*?)\:(?:\"(.*?)\")?/' => '<abbr title=\'\2\'>\1</abbr>',                         // quote
-		'/`(.*?)`/' => '<code>\1</code>',                         // inline code
+		'/`(.*?)`/' => 'self::code',                         // inline code
 		'/\n\*(.*)/' => 'self::ul_list',                          // ul lists
 		'/\n\-(.*)/' => 'self::ul_list',                          // ul lists
 		'/\n[0-9]+\.(.*)/' => 'self::ol_list',                    // ol lists
@@ -51,6 +51,12 @@ class Markdown {
 		$item = $regs[1];
 		$item = htmlspecialchars($item);
 		return sprintf ("\n<pre>%s</pre>\n", trim ($item));
+	}
+
+	private static function code ($regs) {
+		$item = $regs[1];
+		$item = htmlspecialchars($item);
+		return sprintf ("<code>%s</code>", trim ($item));
 	}
 
 	private static function blockquote ($regs) {

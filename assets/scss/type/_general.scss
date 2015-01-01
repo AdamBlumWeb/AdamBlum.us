@@ -34,22 +34,6 @@ code {
 
 
 
-div {
-	width: 12em;
-	height: 12em;
-	@include adapt(small) {
-		background: blue;
-	}
-
-	@include adapt(medium) {
-		background: green;
-	}
-
-	@include adapt(large) {
-		background: red;
-	}
-}
-
 
 blockquote {
 	padding: 1em 0.5em 0.75em 1.5em;

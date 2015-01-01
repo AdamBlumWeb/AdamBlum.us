@@ -3,12 +3,14 @@
 	"template": "project",
 	"meta": {
 		"title": "AdamBlum.us",
-		"description": "This is a test project, son"
+		"description": "My personal website for all things web design and development."
 	},
-	"date": "October 20 2014",
+	"date": "January 1 2015",
 	"author": "Adam Blum",
-	"client": "Company Inc",
+	"client": "Adam Blum",
 	"url": "https://adamblum.us",
+	"img": "assets/image/placeholder/nature.png",
+	"caption": "blah",
 	"auth": null,
 	"styles": null,
 	"scripts": null
