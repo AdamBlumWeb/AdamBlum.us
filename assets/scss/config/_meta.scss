@@ -9,17 +9,13 @@ $metadata: (
 
 
 
-$author: map-get($metadata, 'author');
-$project: map-get($metadata, 'project');
-$year: map-get($metadata, 'year');
-
 
 /*************************
 
-	#{$project}
+	#{map-get($metadata, 'project')}
 
-	Designed by #{$author}
-	Copyright #{$year}
+	Designed by #{map-get($metadata, 'author')}
+	Copyright #{map-get($metadata, 'year')}
 
 *************************/
 
