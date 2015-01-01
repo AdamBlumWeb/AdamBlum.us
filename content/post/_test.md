@@ -12,7 +12,7 @@ There are four key actions that take place on here:
 
 First of all, that’s mostly reading, so readability took precedence over everything. Then I make design decisions based on my needs. Do I need a complex :UI:"User Interface" for this? No. Do I need a complex backend architecture for this? No. Do I even need a font with multilanguage support? No.
 
-![This is an image caption. It’s nifty. Always add descriptions to images so people know what they’re looking at.](assets/image/placeholder/nature.png)
+![This is an image caption. It’s nifty. Always add descriptions to images so people know what they’re looking at.](assets/image/placeholder/trees.png)
 
 Keeping designs simple and load times fast is more work than you think, though.
 
