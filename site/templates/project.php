@@ -10,7 +10,7 @@
 	</header>
 	<section class="project-content">
 		<figure>
-			<img src='<?php echo $this->data['img']; ?>' alt="<?php echo $this->data['heading']; ?>"/>
+			<img src="<?php echo $this->data['img']; ?>" alt="<?php echo $this->data['heading']; ?>"/>
 			<figcaption>
 				<p><?php echo $this->data['caption']; ?></p>
 			</figcaption>
