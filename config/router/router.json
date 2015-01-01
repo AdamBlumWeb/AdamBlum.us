@@ -1,0 +1,34 @@
+{
+	"/^\\/$/": {
+		"name": "home",
+		"type": "page"
+	},
+	"/^\\/about\\/?$/": {
+		"name": "about",
+		"type": "page"
+	},
+	"/^\\/posts\\/?$/": {
+		"name": "posts",
+		"type": "page"
+	},
+	"/^\\/projects\\/?$/": {
+		"name": "projects",
+		"type": "page"
+	},
+	"/^\\/post-(?P<post>\\w+)\\/?$/": {
+		"name": "post",
+		"type": "post"
+	},
+	"/^\\/project-(?P<project>\\w+)\\/?$/": {
+		"name": "project",
+		"type": "project"
+	},
+	"/^\\/error-(?P<error>\\w+)\\/?$/": {
+		"name": "error",
+		"type": "error"
+	},
+	"/^\\/auth-(?P<auth>\\w+)\\/?$/": {
+		"name": "auth",
+		"type": "auth"
+	}
+}

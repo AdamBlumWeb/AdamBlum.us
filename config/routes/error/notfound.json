@@ -1,0 +1,13 @@
+{
+	"heading": "Page Not Found",
+	"template": "basic",
+	"meta": {
+		"title": "Home",
+		"description": "This is the home page, son"
+	},
+	"date": null,
+	"author": null,
+	"auth": null,
+	"styles": null,
+	"scripts": null
+}

@@ -1,0 +1,13 @@
+{
+	"heading": "Responsive Design",
+	"template": "post",
+	"meta": {
+		"title": "Test Post",
+		"description": "Layouts flawlessly adapt to screen size, connection speed, and touchscreen devices."
+	},
+	"date": "December 28 2014",
+	"author": "Adam Blum",
+	"auth": null,
+	"styles": null,
+	"scripts": null
+}

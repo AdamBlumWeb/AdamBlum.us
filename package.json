@@ -1,0 +1,12 @@
+{
+  "name": "AdamBlum",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-md2html": "^0.2.1",
+    "grunt-uncss": "^0.3.7"
+  }
+}

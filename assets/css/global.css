@@ -1,0 +1,430 @@
+@charset "UTF-8";
+/*************************
+
+	AdamBlum.us
+
+	Designed by Adam Blum
+	Copyright 2014
+
+*************************/
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.post-date::before, footer[role="contentinfo"] .copyright::before, .post-date::after, footer[role="contentinfo"] .copyright::after {
+  content: "~";
+  padding: 0 0.25em;
+}
+
+abbr, nav[role="navigation"] a {
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: 0.85em;
+}
+
+body {
+  font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  font-size: 1.25rem;
+  /* the small media query for our 'body' selector ↓ */
+  line-height: 1.875;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
+}
+@media only screen and (max-width: 36rem) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+ul, ol {
+  margin: 1em auto;
+  /* the medium media query for our 'ul, ol' selector ↓ */
+}
+@media only screen and (max-width: 60rem) {
+  ul, ol {
+    list-style-position: inside;
+  }
+}
+
+code {
+  font-family: 'Andale Mono', AndaleMono, monospace;
+  font-size: 0.75em;
+}
+
+div {
+  width: 12em;
+  height: 12em;
+  /* the small media query for our 'div' selector ↓ */
+  /* the medium media query for our 'div' selector ↓ */
+  /* the large media query for our 'div' selector ↓ */
+}
+@media only screen and (max-width: 36rem) {
+  div {
+    background: blue;
+  }
+}
+@media only screen and (max-width: 60rem) {
+  div {
+    background: green;
+  }
+}
+@media only screen and (min-width: 60rem) {
+  div {
+    background: red;
+  }
+}
+
+blockquote {
+  padding: 1em 0.5em 0.75em 1.5em;
+  margin: 1em auto;
+  border-left: 0.5em solid #eb5448;
+  background: #f7f7f7;
+}
+blockquote span {
+  display: block;
+  text-align: right;
+  font-style: italic;
+  opacity: 0.7;
+  font-size: 0.9em;
+}
+blockquote span::before {
+  content: "—\0020";
+}
+
+.profile {
+  width: 12em;
+  margin: 0 1em 0em 0;
+  float: left;
+}
+
+.swatch {
+  display: inline-block;
+  line-height: 1;
+  width: 0.65em;
+  height: 0.65em;
+  margin: 0 0.125em;
+  vertical-align: baseline;
+}
+
+figure {
+  margin: 2em auto;
+  border: 0.25em solid #eaeaea;
+}
+
+figcaption {
+  font-family: 'Gill Sans', sans-serif;
+  background: #eaeaea;
+  padding: 0.25em;
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+figcaption p {
+  margin-bottom: 0;
+}
+
+/*
+.georgia {
+	font-family: stack(georgia);
+}
+
+.gillsans {
+	font-family: stack(gillsans);
+}
+
+.andalemono {
+	font-family: stack(andalemono);
+}
+*/
+p {
+  margin: 0 auto 1em auto;
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+:lang(en) q {
+  quotes: '“' '”';
+}
+:lang(fr) q {
+  quotes: '«' '»';
+}
+:lang(de) q {
+  quotes: '»' '«';
+}
+
+i, em {
+  font-style: italic;
+}
+i i, em i, i em, em em {
+  font-style: normal;
+}
+
+b, strong {
+  font-weight: bold;
+}
+b b, strong b, b strong, strong strong {
+  font-weight: normal;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+sub {
+  top: 0.4em;
+}
+
+sub sup, sup sub {
+  position: inherit;
+  top: inherit;
+  vertical-align: inherit;
+  font-size: inherit;
+}
+
+abbr {
+  font-family: 'Gill Sans', sans-serif;
+  border-bottom: 0.0625em dotted #333;
+  cursor: help;
+}
+
+a {
+  text-decoration: none;
+}
+p a, li a {
+  border-bottom: 0.125em solid #dedede;
+}
+a[href^="http"]::after {
+  content: "\203A";
+  margin: 0 0.25em;
+}
+a[download]::after {
+  content: "▼";
+  margin: 0 0.25em;
+}
+a[rel="prev"]::before {
+  content: "\2190";
+  margin: 0 0.25em;
+}
+a[rel="next"]::after {
+  content: "\2192";
+  margin: 0 0.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gill Sans', sans-serif;
+  line-height: 1.2;
+  margin: 1.25em auto 0.25em auto;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #2c90c6;
+  transition: 0.4s color ease;
+}
+h1 a:hover, h1 a:focus, h1 a.active, h2 a:hover, h2 a:focus, h2 a.active, h3 a:hover, h3 a:focus, h3 a.active, h4 a:hover, h4 a:focus, h4 a.active, h5 a:hover, h5 a:focus, h5 a.active, h6 a:hover, h6 a:focus, h6 a.active {
+  color: #333;
+}
+
+h1 {
+  font-size: 3.5em;
+  /* the medium media query for our 'h1' selector ↓ */
+  /* the small media query for our 'h1' selector ↓ */
+}
+@media only screen and (max-width: 60rem) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (max-width: 36rem) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.85em;
+}
+
+nav[role="navigation"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* the small media query for our 'nav[role="navigation"]' selector ↓ */
+}
+@media only screen and (max-width: 36rem) {
+  nav[role="navigation"] {
+    flex-direction: column;
+  }
+}
+nav[role="navigation"] a {
+  font-family: 'Gill Sans', sans-serif;
+  margin: 0.5em 1em;
+  text-decoration: none;
+  opacity: 0.5;
+  transition: 0.2s opacity ease;
+}
+nav[role="navigation"] a:first-of-type {
+  /* the small media query for our 'nav[role="navigation"] a:first-of-type' selector ↓ */
+}
+@media only screen and (max-width: 36rem) {
+  nav[role="navigation"] a:first-of-type {
+    font-size: 1.125em;
+  }
+}
+nav[role="navigation"] a:hover, nav[role="navigation"] a:focus, nav[role="navigation"] a.active {
+  opacity: 1;
+}
+
+.post-list header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25em;
+}
+.post-list header h3 {
+  margin: 0;
+}
+.post-list header time {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 0.85em;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.post {
+  counter-reset: figure;
+}
+.post figure {
+  counter-increment: figure;
+}
+.post figcaption p::before {
+  opacity: 0.75;
+  margin-right: 0.5em;
+  content: "Figure " counter(figure) ":";
+}
+
+.post-heading::before {
+  content: "";
+  display: block;
+  max-width: 12rem;
+  border-bottom: 0.25rem solid #eb5448;
+  margin: 0 auto;
+  /* the small media query for our '.post-heading::before' selector ↓ */
+}
+@media only screen and (max-width: 36rem) {
+  .post-heading::before {
+    margin-left: 0;
+    border-bottom-width: 0.2rem;
+    margin-bottom: 0.25em;
+  }
+}
+
+.post-date {
+  /* the small media query for our '.post-date' selector ↓ */
+}
+@media only screen and (max-width: 36rem) {
+  .post-date {
+    text-align: left;
+  }
+}
+
+.post-content > p:last-of-type::after {
+  content: "\2767";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0 0.25em;
+  line-height: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.post-author {
+  font-style: italic;
+}
+
+.all-posts {
+  font-style: italic;
+  text-transform: lowercase;
+  opacity: 0.5;
+}
+
+footer[role="contentinfo"] {
+  text-align: center;
+  margin-top: 2em;
+  padding: 1em 0.5em;
+  position: relative;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+article {
+  padding: 0 1em;
+}
+
+header h1 {
+  text-align: center;
+  /* the small media query for our 'header h1' selector ↓ */
+}
+@media only screen and (max-width: 36rem) {
+  header h1 {
+    max-width: 36rem;
+    text-align: left;
+  }
+}
+header p {
+  text-align: center;
+}
+header + section > p:first-of-type {
+  font-size: 1.25em;
+  line-height: 1.75;
+}
+
+header[role="banner"] {
+  padding: 0.25em;
+  background: #f7f7f7;
+}
+
+section, footer {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: right;
+}
+
+/*# sourceMappingURL=global.css.map */

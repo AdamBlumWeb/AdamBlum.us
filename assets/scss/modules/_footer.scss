@@ -1,0 +1,14 @@
+footer[role="contentinfo"] {
+//	background: 	$lite;
+	text-align: 	center;
+	margin-top: 	2em;
+	padding: 		1em 0.5em;
+	position: 	relative;
+	font-style: 	italic;
+	opacity: 		0.5;
+
+	.copyright {
+		@extend %flourish-small;
+	}
+
+}

@@ -1,0 +1,18 @@
+{
+	"home": {
+		"url": "/",
+		"text": "Adam Blum"
+	},
+	"about": {
+		"url": "/about",
+		"text": "About"
+	},
+	"projects": {
+		"url": "/projects",
+		"text": "Projects"
+	},
+	"posts": {
+		"url": "/posts",
+		"text": "Thoughts"
+	}
+}

@@ -1,0 +1,26 @@
+
+$_stacks: (
+	hoeflertext: "'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif",
+	gillsans: "'Gill Sans', sans-serif",
+	andalemono: "'Andale Mono', AndaleMono, monospace"
+);
+
+
+$_typefaces: (
+	bodycopy: 'hoeflertext',
+	heading: 'gillsans',
+	nav: 'gillsans',
+	caption: 'gillsans',
+	code: 'andalemono',
+	abbr: 'gillsans'
+);
+
+
+$_sizes: (
+	normal: '1em',
+	small: 	'0.85em'
+);
+
+
+
+

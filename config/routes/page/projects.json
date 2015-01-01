@@ -1,0 +1,13 @@
+{
+	"heading": "My Work",
+	"template": "projectlist",
+	"meta": {
+		"title": "My Work",
+		"description": "This is the home page, son"
+	},
+	"date": null,
+	"author": null,
+	"auth": null,
+	"styles": null,
+	"scripts": null
+}

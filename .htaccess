@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+IndexIgnore */*
+#	Turn on the RewriteEngine for fancy stuff
+RewriteEngine On
+#  Rules
+RewriteRule \.(css|jpe?g|gif|png|js|ico|svg)$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#	Redirect every request to our index.php file
+RewriteRule ^.*$ index.php [NC,L]
+

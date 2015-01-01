@@ -1,0 +1,27 @@
+
+nav[role="navigation"] {
+	display: 			flex;
+	justify-content: 	center;
+	align-items: 		center;
+	@include adapt(small) {
+		flex-direction: column;
+	}
+
+	a {
+		@include type('nav');
+		@extend 		%small-caps;
+		&:first-of-type {
+			@include adapt(small) {
+				font-size: 	1.125em;
+			}
+		}
+		margin: 		0.5em 1em;
+		text-decoration: 	none;
+		opacity: 0.5;
+		transition: 0.2s opacity ease;
+
+		@include hover() {
+			opacity: 1;
+		}
+	}
+}

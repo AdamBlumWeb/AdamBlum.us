@@ -1,0 +1,46 @@
+
+article {
+	padding: 		0 1em;
+}
+
+header {
+
+	h1 {
+		text-align: center;
+		@include adapt(small) {
+			max-width: 		$copy-width;
+			text-align: 	left;
+		}
+	}
+
+	p {
+		text-align: 	center;
+	}
+
+	& + section > p:first-of-type {
+		font-size: 1.25em;
+		line-height: 	1.75;
+	}
+}
+
+
+header[role="banner"] {
+	padding: 		0.25em;
+	background: 	$lite;
+}
+
+
+
+
+
+section, footer {
+	max-width: 	$copy-width;
+	margin: 	0 auto;
+}
+
+footer {
+	text-align: right;
+}
+
+
+

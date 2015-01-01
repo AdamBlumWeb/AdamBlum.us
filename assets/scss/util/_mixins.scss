@@ -1,0 +1,58 @@
+
+
+
+
+@mixin adapt($media) {
+	/* the #{$media} media query for our '#{&}' selector ↓ */
+	@media only screen and (#{media-query($media)}) {
+		@content;
+	}
+
+
+}
+
+
+@mixin type($style) {
+	font-family: type($style);
+}
+
+@mixin hover($outline: false) {
+	&:hover, &:focus, &.active {
+		@content;
+	}
+	@if $outline {
+		&:focus {
+			outline: 1px solid $meddark;
+		}
+	}
+}
+
+
+
+@mixin in-post($content-only: false) {
+	@if $content-only {
+		.post-content & {
+			@content;
+		}
+	} @else {
+		.post & {
+			@content;
+		}
+	}
+}
+
+@mixin in-project($content-only: false) {
+	@if $content-only {
+		.project-content & {
+			@content;
+		}
+	} @else {
+		.project & {
+			@content;
+		}
+	}
+}
+
+
+
+

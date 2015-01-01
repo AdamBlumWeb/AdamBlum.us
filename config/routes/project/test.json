@@ -1,0 +1,15 @@
+{
+	"heading": "AdamBlum.us",
+	"template": "project",
+	"meta": {
+		"title": "AdamBlum.us",
+		"description": "This is a test project, son"
+	},
+	"date": "October 20 2014",
+	"author": "Adam Blum",
+	"client": "Company Inc",
+	"url": "https://adamblum.us",
+	"auth": null,
+	"styles": null,
+	"scripts": null
+}

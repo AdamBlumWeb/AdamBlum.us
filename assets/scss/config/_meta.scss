@@ -1,0 +1,25 @@
+
+
+$metadata: (
+	author: 'Adam Blum',
+	project: 'AdamBlum.us',
+	year: '2014'
+);
+
+
+
+
+$author: map-get($metadata, 'author');
+$project: map-get($metadata, 'project');
+$year: map-get($metadata, 'year');
+
+
+/*************************
+
+	#{$project}
+
+	Designed by #{$author}
+	Copyright #{$year}
+
+*************************/
+

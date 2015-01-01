@@ -1,0 +1,12 @@
+{
+	"name": "application",
+	"version": "0.1.0",
+	"language": "en",
+	"license": null,
+	"published": null,
+	"organization": null,
+	"timezone": "America/New_York",
+	"development": false,
+	"author": "Adam Blum",
+	"copyright_begin": 2007
+}

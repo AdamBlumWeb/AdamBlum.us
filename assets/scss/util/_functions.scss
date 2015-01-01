@@ -1,0 +1,60 @@
+
+
+
+
+@function stack($stack) {
+	$stack: map-get($_stacks, $stack);
+	@return unquote($stack);
+}
+
+@function type($typeface) {
+	$stack: stack(map-get($_typefaces, $typeface));
+	@return unquote($stack);
+}
+
+
+
+@function color($color, $mod: false) {
+	$color: 	map-get($_colors, $color);
+	@if $mod {
+		$percent: abs($mod);
+		@if $mod > 0 {
+			@return lighten($color, $percent);
+		} @else if $mod < 0 {
+			@return darken($color, $percent);
+		}
+	} @else {
+		@return $color;
+	}
+}
+
+
+
+
+
+
+
+@function get($map, $key) {
+	@return map-get($map, $key);
+}
+
+
+@function media-query($media) {
+	$min-size: get(get($media-queries, $media), 'min');
+	$max-size: get(get($media-queries, $media), 'max');
+
+	$min: get($breakpoints, $min-size);
+	$max: get($breakpoints, $max-size);
+
+	@if $min {
+		@return "min-width: #{$min}";
+	} @else if $max {
+		@return "max-width: #{$max}";
+	}
+}
+
+
+
+
+
+
