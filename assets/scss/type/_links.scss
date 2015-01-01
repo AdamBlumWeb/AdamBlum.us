@@ -5,10 +5,6 @@ a {
 		border-bottom: 	0.125em solid $med;
 	}
 
-	&[href^="http"] {
-
-	}
-
 	&[download] {
 		&::after {
 			content: "▼";
