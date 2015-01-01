@@ -113,19 +113,6 @@ figcaption p {
   margin-bottom: 0;
 }
 
-/*
-.georgia {
-	font-family: stack(georgia);
-}
-
-.gillsans {
-	font-family: stack(gillsans);
-}
-
-.andalemono {
-	font-family: stack(andalemono);
-}
-*/
 p {
   margin: 0 auto 1em auto;
 }
@@ -181,6 +168,8 @@ sub sup, sup sub {
 
 abbr {
   font-family: 'Gill Sans', sans-serif;
+}
+abbr[title] {
   border-bottom: 0.0625em dotted #333;
   cursor: help;
 }

@@ -13,7 +13,7 @@ class Markdown {
 		'/\^\((.+)\)/' 		=> '<sup>\1</sup>',
 		'/_\((.+)\)/' 		=> '<sub>\1</sub>',
 		'/\:\"(.*?)\"\:/' => '<q>\1</q>',                         // quote
-		'/\:(.*?)\:(?:\"(.*?)\")?/' => '<abbr title=\'\2\'>\1</abbr>',                         // quote
+		'/([A-Z]{2,})(?:\[([\w*\s*]+)\])?(?=[\s\.,;\/])/' => '<abbr title=\'\2\'>\1</abbr>',                         // quote
 		'/`(.*?)`/' => 'self::code',                         // inline code
 		'/\n\*(.*)/' => 'self::ul_list',                          // ul lists
 		'/\n\-(.*)/' => 'self::ul_list',                          // ul lists

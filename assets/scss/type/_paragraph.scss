@@ -58,6 +58,8 @@ sub sup, sup sub {
 abbr {
 	@include type('abbr');
 	@extend %small-caps;
-	border-bottom: 0.0625em dotted $dark;
-	cursor: help;
+	&[title] {
+		border-bottom: 0.0625em dotted $dark;
+		cursor: help;
+	}
 }
