@@ -6,7 +6,7 @@ class Stylesheet extends Asset {
 	}
 
 	public function load() {
-		echo "<link rel='stylesheet' href='$this->url'/>";
+		echo "<link rel='stylesheet' href='$this->url?v'/>";
 	}
 }
 
