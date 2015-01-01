@@ -214,10 +214,6 @@ a {
 p a, li a {
   border-bottom: 0.125em solid #dedede;
 }
-a[href^="http"]::after {
-  content: "\203A";
-  margin: 0 0.25em;
-}
 a[download]::after {
   content: "▼";
   margin: 0 0.25em;
