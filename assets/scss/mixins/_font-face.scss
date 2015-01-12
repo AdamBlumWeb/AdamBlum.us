@@ -1,0 +1,49 @@
+
+// default style 	= 	normal
+// default weight 	= 	regular
+
+@mixin font-face-vars($name, $attrs) {
+
+	$map: 						map-get($_fonts, $name);
+
+	@if $attrs == 'regular' {
+		$attrs: false;
+	}
+
+
+	$file-name: 				FF_file-name($name, $attrs);
+	$file-format: 				setting('webfont-format');
+	$file-extension: 			'.' + $file-format;
+	$file-path: 				setting('webfont-path');
+	$full-path: 				$file-path + $file-name + $file-extension;
+
+	$family-name: 				$name;
+
+
+	$full-name: 				FF_font-name($name, $attrs);
+	$postscript-name: 			FF_postscript-name($name, $attrs);
+
+	$font-style: 				FF_font-style($attrs);
+	$font-weight: 				FF_font-weight($attrs);
+
+	@font-face {
+		font-family: 	"#{$family-name}";
+
+		@if map-get($map, 'local') {// is this a system font?
+			src: 			local("#{$full-name}"), local("#{$postscript-name}");
+		} @else {
+			src: 			url("#{$full-path}") format("#{$file-format}");
+		}
+
+		font-style: 		#{$font-style};
+		font-weight: 		#{$font-weight};
+	}
+
+}
+
+
+@mixin font-face($name, $attrs: false) {
+
+	@include font-face-vars($name, $attrs);
+
+}

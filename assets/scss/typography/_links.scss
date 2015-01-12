@@ -1,0 +1,26 @@
+
+
+a {
+	text-decoration: 	none;
+
+	@include in-text() {
+		@include trans('background-color');
+		border-bottom: 		1px solid color('blue');
+		@include active() {
+			background-color: 	color('medlite');
+		}
+	}
+
+	&[download] {
+
+	}
+
+	&[rel='prev'] {
+
+	}
+
+	&[rel='next'] {
+
+	}
+
+}

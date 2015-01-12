@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="400px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g>
+        <g id="screen">
+            <g id="background">
+                <g>
+                    <rect x="0" y="-5.68434e-14" width="800" height="400" style="fill:white;"/>
+                </g>
+            </g>
+            <g id="content">
+                <g id="Layer2">
+                    <g>
+                        <rect x="160" y="99.2781" width="100.593" height="52.1251" style="fill:rgb(154,162,161);"/>
+                    </g>
+                    <g>
+                        <rect x="539.407" y="347.875" width="100.593" height="52.1251" style="fill:rgb(154,162,161);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="38.8931" width="480" height="40.3369" style="fill:rgb(205,209,209);"/>
+                    </g>
+                    <g>
+                        <rect x="220" y="289.495" width="360" height="40.3369" style="fill:rgb(205,209,209);"/>
+                    </g>
+                    <g>
+                        <rect x="280" y="99.2781" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="347.875" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="280" y="179.471" width="240" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="159.422" width="100" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="179.471" width="100" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="280" y="119.326" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="367.923" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="199.519" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="280" y="139.374" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="387.971" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="219.567" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="259.663" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="280" y="159.422" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="160" y="239.615" width="360" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="539.407" y="179.471" width="100.593" height="52.1251" style="fill:rgb(154,162,161);"/>
+                    </g>
+                    <g>
+                        <rect x="539.407" y="239.615" width="100" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                    <g>
+                        <rect x="539.407" y="259.663" width="100" height="12.0289" style="fill:rgb(207,207,207);"/>
+                    </g>
+                </g>
+            </g>
+            <g id="toolbar">
+                <g>
+                    <rect x="0" y="0" width="800" height="19.0856" style="fill:rgb(224,223,224);"/>
+                </g>
+                <g id="button">
+                    <g>
+                        <path d="M9.18519,4.34514C12.0489,4.34514 14.3704,6.67221 14.3704,9.5428C14.3704,12.4134 12.0489,14.7405 9.18519,14.7405C6.32149,14.7405 4,12.4134 4,9.5428C4,6.67221 6.32149,4.34514 9.18519,4.34514Z" style="fill:rgb(255,91,83);"/>
+                    </g>
+                </g>
+                <g id="button1">
+                    <g>
+                        <path d="M24,4.34514C26.8637,4.34514 29.1852,6.67221 29.1852,9.5428C29.1852,12.4134 26.8637,14.7405 24,14.7405C21.1363,14.7405 18.8148,12.4134 18.8148,9.5428C18.8148,6.67221 21.1363,4.34514 24,4.34514Z" style="fill:rgb(255,203,30);"/>
+                    </g>
+                </g>
+                <g id="button2">
+                    <g>
+                        <path d="M38.8148,4.34514C41.6785,4.34514 44,6.67221 44,9.5428C44,12.4134 41.6785,14.7405 38.8148,14.7405C35.9511,14.7405 33.6296,12.4134 33.6296,9.5428C33.6296,6.67221 35.9511,4.34514 38.8148,4.34514Z" style="fill:rgb(0,250,136);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

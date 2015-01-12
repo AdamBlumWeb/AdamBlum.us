@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="600px" height="429px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g>
+        <g id="tablet">
+            <g id="computer">
+                <g id="border">
+                    <path d="M600,20.2601C600,9.29165 591.108,0.4 580.14,0.4L19.8601,0.4C8.89165,0.4 -5.68434e-14,9.29165 -5.68434e-14,20.2601L-5.68434e-14,409.14C-5.68434e-14,420.108 8.89165,429 19.8601,429L580.14,429C591.108,429 600,420.108 600,409.14L600,20.2601Z" style="fill:black;"/>
+                </g>
+                <g id="screen">
+                    <rect x="28.5714" y="28.9714" width="542.857" height="371.429" style="fill:rgb(64,64,64);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

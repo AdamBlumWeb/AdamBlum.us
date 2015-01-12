@@ -1,0 +1,23 @@
+
+%small-caps {
+	@include opentype('caps-to-small-caps, small-caps');
+}
+
+
+%sans-small-caps {
+	text-transform: 			uppercase;
+	letter-spacing: 			0.075em;
+	font-size: 					0.85em;
+}
+
+%swash {
+	@include opentype('swash');
+	font-style: 	italic;
+}
+
+%flourish-small {
+	&::before, &::after {
+		content: "~";
+		padding: 0 0.25em;
+	}
+}

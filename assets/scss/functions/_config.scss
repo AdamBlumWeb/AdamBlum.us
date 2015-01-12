@@ -1,0 +1,23 @@
+@function setting($key) {
+	@return 	unquote(map-get($_settings, $key));
+}
+
+@function type-setting($key) {
+	@return 	unquote(map-get($_typography-settings, $key));
+}
+
+
+
+@function metadata($key) {
+	@return 	unquote(map-get($_metadata, $key));
+}
+
+@function color($key) {
+	$color: null;
+	@if setting('grayscale') {
+		$color: 	grayscale(map-get($_colors, $key));
+	} @else {
+		$color: 	map-get($_colors, $key);
+	}
+	@return 	unquote($color);
+}

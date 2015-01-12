@@ -1,0 +1,45 @@
+
+
+
+$_breakpoints: (
+	'extra-small': 			26rem,
+	'small': 				38rem,
+	'medium': 				60rem,
+	'large': 				75rem,
+	'extra-large': 			85rem
+);
+
+
+$_breakpoint-components: (
+	'extra-small': (
+		'media': 			'screen',
+		'max-width': 		get-breakpoint('extra-small')
+	),
+	'small': (
+		'media': 			'screen',
+		'max-width': 		get-breakpoint('small'),
+		'min-width': 		get-breakpoint('extra-small')
+	),
+	'medium': (
+		'media': 			'screen',
+		'max-width': 		get-breakpoint('medium'),
+		'min-width': 		get-breakpoint('small')
+	),
+	'large': (
+		'media': 			'screen',
+		'max-width': 		get-breakpoint('large'),
+		'min-width': 		get-breakpoint('medium')
+	),
+	'extra-large': (
+		'media': 			'screen',
+		'max-width': 		get-breakpoint('extra-large'),
+		'min-width': 		get-breakpoint('large')
+	),
+	'huge': (
+		'media': 			'screen',
+		'min-width': 		get-breakpoint('extra-large')
+	),
+	'print': (
+		'media': 			'print'
+	)
+);

@@ -1,0 +1,12 @@
+
+
+p {
+
+	@if type-setting('indent-paragraphs') {
+		& + & {
+			text-indent: 	1.5em;
+		}
+	} @else {
+		margin: 		0 auto 0.75em auto;
+	}
+}

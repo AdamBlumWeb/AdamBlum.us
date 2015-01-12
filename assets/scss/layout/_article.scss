@@ -1,0 +1,52 @@
+article {
+	padding: 		0 1em;
+
+	[role="main"] > & {
+		header {
+			h1, p {
+				text-align: 	center;
+
+				@include adapt('small', true) {
+					text-align: 	left;
+				}
+			}
+		}
+	}
+}
+
+.page, .post, .project {
+
+
+	&-date {
+		@extend %swash;
+		@extend %flourish-small;
+
+		margin: 		1em auto;
+	}
+
+	&-byline {
+		@extend %swash;
+		text-align: 	right;
+	}
+
+	&-content {
+		& > p:first-of-type {
+			font-size: 		1.25em;
+		}
+
+		.post & p:last-of-type:not(:only-of-type) {
+			&::after {
+				content: "\25A0";
+				color: 				color('red');
+				display: 			inline-block;
+				margin-left: 		0.25em;
+			}
+		}
+	}
+}
+
+
+section, footer {
+	max-width: 		type-setting('copy-width');
+	margin: 		0 auto;
+}

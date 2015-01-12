@@ -1,0 +1,52 @@
+:root {
+
+
+
+	@if setting('use-opentype') {
+		text-rendering: 			optimizeLegibility;
+	}
+	@if setting('use-font-smoothing') {
+		-webkit-font-smoothing: 	antialiased;
+		-moz-osx-font-smoothing: 	grayscale;
+	}
+
+	@include opentype-features(liga swsh);
+
+
+
+	@include adapt('extra-small') {
+		// adaptive design stuff goes here
+	}
+
+	@include adapt('small') {
+		// adaptive design stuff goes here
+	}
+
+	@include adapt('medium') {
+		// adaptive design stuff goes here
+	}
+
+	@include adapt('large') {
+		// adaptive design stuff goes here
+	}
+
+	@include adapt('extra-large') {
+		// adaptive design stuff goes here
+	}
+
+	@include adapt('huge') {
+		// adaptive design stuff goes here
+	}
+
+	@include adapt('print') {
+		// adaptive design stuff goes here
+	}
+
+
+}
+
+body {
+	@include type('text');
+	font-size:  		type-setting('base-font-size');
+	color: 				type-setting('base-font-color');
+}

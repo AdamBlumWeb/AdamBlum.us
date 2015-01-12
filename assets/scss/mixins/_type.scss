@@ -1,0 +1,74 @@
+
+
+@mixin type($name) {
+	$map: 			map-get($_type-components, $name);
+	$family: 		map-get($map, 'family');
+	$leading: 		map-get($map, 'leading');
+	$size: 			map-get($map, 'size');
+
+	@if $family {
+		font-family: 	"#{$family}";
+	}
+
+	@if $leading {
+		line-height: 	#{$leading};
+	}
+
+	@if $size {
+		font-size: 		#{$size};
+	}
+
+
+}
+
+
+
+
+@mixin opentype-features($feature-list: false) {
+	@if setting('use-opentype') {
+		// Only proceed if a list of arguments was passed
+		@if $feature-list {
+			// Create an empty list
+			$list: ();
+			// Add each listed feature
+			@each $feature in $feature-list {
+				$list: append($list, '#{$feature}' 1, comma);
+			}
+			font-feature-settings: $list;
+		}
+	}
+}
+
+
+@mixin opentype($string) {
+	$list: str-explode($string, ',');
+	$new-list: ();
+
+	@each $item in $list {
+		$new-item: map-get($_opentype-features, '#{no-spaces($item)}');
+		$new-list: append($new-list, $new-item);
+	}
+
+	@include opentype-features($new-list);
+}
+
+
+@mixin trans($prop: 'color') {
+	transition: 	unquote($prop) 0.5s ease;
+}
+
+
+@mixin active() {
+	&:hover, &:focus, &.active {
+		@content;
+	}
+}
+
+
+
+
+@mixin in-text {
+	p &, li &, td & {
+		@content;
+	}
+}

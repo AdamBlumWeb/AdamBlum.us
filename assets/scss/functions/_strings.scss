@@ -1,0 +1,82 @@
+@function caps($string) {
+	$uc: str-slice($string, 1, 1);
+	$lc: str-slice($string, 2);
+	@return to-upper-case($uc) + $lc;
+}
+
+
+
+
+@function str-replace($string, $search, $replace: '') {
+	$index: str-index($string, $search);
+	@if $index {
+		@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+	}
+	@return $string;
+}
+
+@function no-spaces($string) {
+	@return str-replace($string, ' ', '');
+}
+
+
+@function str-explode($string, $delimiter: "") {
+	$result: ();
+	$length: str-length($string);
+
+	@if str-length($delimiter) == 0 {
+		@for $i from 1 through $length {
+			$result: append($result, str-slice($string, $i, $i));
+		}
+
+		@return $result;
+	}
+
+	$running: true;
+	$remaining: $string;
+
+	@while $running {
+		$index: str-index($remaining, $delimiter);
+
+		@if $index {
+			$slice: str-slice($remaining, 1, $index - 1);
+			$result: append($result, $slice);
+			$remaining: str-slice($remaining, $index + str-length($delimiter));
+		} @else {
+			$running: false;
+		}
+	}
+
+	@return append($result, $remaining);
+}
+
+
+@function list-to-string($list, $glue: '', $is-nested: false) {
+	$result: null;
+
+	@for $i from 1 through length($list) {
+		$e: nth($list, $i);
+
+		@if type-of($e) == list {
+			$result: $result#{to-string($e, $glue, true)};
+		}
+
+		@else {
+			$result: if($i != length($list) or $is-nested, $result#{$e}#{$glue}, $result#{$e});
+		}
+	}
+
+	@return $result;
+}
+
+
+@function initial-caps($string) {
+	$style-list: 	str-explode($string, ' ');
+	$new-list: ();
+
+	@each $word in $style-list {
+		$new-list: append($new-list, caps($word));
+	}
+
+	@return list-to-string($new-list, ' ');
+}

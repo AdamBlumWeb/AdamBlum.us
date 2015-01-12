@@ -1,0 +1,17 @@
+$_settings: (
+	'dev-mode': 					true,
+	'image-path': 					"/assets/image/",
+	'image-format': 				"png",
+	'svg-path': 					"/assets/vector/",
+	'svg-format': 					"svg",
+	'webfont-path': 				"/assets/fonts/",
+	'webfont-format': 				"woff",
+	'use-opentype': 				true,
+	'use-font-smoothing': 			false,
+	'active-fonts': (
+		'Linux Libertine',
+		'Gill Sans',
+		'Andale Mono'
+	),
+	'grayscale': 					false
+);

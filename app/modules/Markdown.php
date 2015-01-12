@@ -15,6 +15,7 @@ class Markdown {
 		'/\:\"(.*?)\"\:/' => '<q>\1</q>',                         // quote
 		'/([A-Z]{2,})(?:\[([\w*\s*]+)\])?(?=[\s\.,;\/])/' => '<abbr title=\'\2\'>\1</abbr>',                         // quote
 		'/`(.*?)`/' => 'self::code',                         // inline code
+		'/(\t(.*?\n)*)/' => 'self::pre',
 		'/\n\*(.*)/' => 'self::ul_list',                          // ul lists
 		'/\n\-(.*)/' => 'self::ul_list',                          // ul lists
 		'/\n[0-9]+\.(.*)/' => 'self::ol_list',                    // ol lists
@@ -25,6 +26,7 @@ class Markdown {
 		'/<\/ol>\s?<ol>/' => '',                                  // fix extra ol
 		'/---/' => '&mdash;',
 		'/--/' => '&ndash;',
+		'/\.\.\./' => '&hellip;',
 		'/<\/blockquote><blockquote>/' => "\n"                    // fix extra blockquote
 	);
 
@@ -34,7 +36,9 @@ class Markdown {
 		if (preg_match ('/^<\/?(ul|ol|li|h|p|bl|pre|figure|figcaption)/', $trimmed)) {
 			return "\n" . $line . "\n";
 		}
-		return sprintf ("\t\n<p>%s</p>\n", $trimmed);
+		$text = sprintf ("\t\n<p>%s</p>\n", $trimmed);
+		$text = preg_replace( '|([^\s])\s+([^\s]+)\s*$|', '$1&nbsp;$2', $text);
+		return $text;
 	}
 
 	private static function ul_list ($regs) {
@@ -50,7 +54,7 @@ class Markdown {
 	private static function pre ($regs) {
 		$item = $regs[1];
 		$item = htmlspecialchars($item);
-		return sprintf ("\n<pre>%s</pre>\n", trim ($item));
+		return sprintf ("\n<pre><code>%s</code></pre>\n", trim ($item));
 	}
 
 	private static function code ($regs) {
@@ -75,7 +79,7 @@ class Markdown {
 		$alt = trim($regs[1]);
 		$src = $regs[2];
 		$class = $regs[3];
-		return "<figure class='$class'>\n\t<img src='$src' alt='$alt'/>\n\t<figcaption>\n\t\t<p>$alt</p>\n\t</figcaption>\n</figure>";
+		return "<figure class='$class'>\n<img src='$src' alt='$alt'/>\n<figcaption>\n<p>$alt</p>\n</figcaption>\n</figure>";
 	}
 
 

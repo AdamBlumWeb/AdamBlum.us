@@ -1,0 +1,737 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"in",
+				"inside"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"border-bott",
+				"border-bottom-width"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"make",
+				"make_footer"
+			],
+			[
+				"date_def",
+				"date_default_timezone_set"
+			],
+			[
+				"str",
+				"strtotime"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"HTML",
+				"HTML_contents"
+			],
+			[
+				"crea",
+				"create_HTML"
+			],
+			[
+				"H",
+				"HTML_tag"
+			],
+			[
+				"self",
+				"self_closing"
+			],
+			[
+				"create",
+				"create_tag"
+			],
+			[
+				"ass",
+				"asset_data"
+			],
+			[
+				"asset",
+				"asset_data"
+			],
+			[
+				"set_att",
+				"set_attribute"
+			],
+			[
+				"asse",
+				"asset_data"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"dir_",
+				"dir_db"
+			],
+			[
+				"dir",
+				"dir_modules"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"list",
+				"list-n	list-style-type: none;"
+			],
+			[
+				"add",
+				"add_rule"
+			],
+			[
+				"temp",
+				"tempdb"
+			],
+			[
+				"is",
+				"is_dir"
+			],
+			[
+				"Bar",
+				"BareMinimum2"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"EA",
+				"EAGL_SERVER_ROOT"
+			],
+			[
+				"EAGL",
+				"EAGL_CLIENT_ROOT"
+			],
+			[
+				"md",
+				"md2html"
+			],
+			[
+				"type",
+				"type-mods"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"coun",
+				"counter-increment"
+			],
+			[
+				"counter",
+				"counter-reset"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"border-left-",
+				"border-left-color"
+			],
+			[
+				"extend",
+				"extendedconf"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"POST",
+				"POST_LIST"
+			],
+			[
+				"POST_",
+				"POST_FILE"
+			],
+			[
+				"App",
+				"Application"
+			],
+			[
+				"play",
+				"playPause"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"page",
+				"pagetitle"
+			],
+			[
+				"MOD",
+				"MODULE_PATH"
+			],
+			[
+				"SER",
+				"SERVER_FILES"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"global",
+				"global-prefixed"
+			],
+			[
+				"Krista",
+				"KristaGilbert"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 38,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/type/_general.scss",
+			"settings":
+			{
+				"buffer_size": 1207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/type/_paragraph.scss",
+			"settings":
+			{
+				"buffer_size": 707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/scss/config/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Library/WebServer/Documents/AdamBlum.us",
+		"/Library/WebServer/Documents/AdamBlum.us/app/extensions",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules",
+		"/Library/WebServer/Documents/AdamBlum.us/assets",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/image/placeholder",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/config",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/type"
+	],
+	"file_history":
+	[
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/Markdown.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/extensions/Stylesheets.php",
+		"/Library/WebServer/Documents/AdamBlum.us/.htaccess",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/config/_type.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/global.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/config/_meta.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/type/_links.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/css/global-prefixed.css",
+		"/Library/WebServer/Documents/AdamBlum.us/Gruntfile.js",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/layout/_page.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/modules/_post.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/type/_headings.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/type/_paragraph.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/modules/_postlist.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/type/_general.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/modules/_footer.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/util/_extends.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/modules/_navigation.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/util/_mixins.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/util/_functions.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/config/_colors.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/util/_vars.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/site/snippets/footer.php",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/util/_reset.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/scss/type/_forms.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/content/post/test.md",
+		"/Library/WebServer/Documents/AdamBlum.us/content/post/test2.md",
+		"/Library/WebServer/Documents/AdamBlum.us/config/routes/post/test.json",
+		"/Library/WebServer/Documents/AdamBlum.us/site/templates/basic.php",
+		"/Library/WebServer/Documents/AdamBlum.us/site/templates/post.php",
+		"/Library/WebServer/Documents/AdamBlum.us/content/page/about.md",
+		"/Library/WebServer/Documents/AdamBlum.us/config/navigation/sitenav.json",
+		"/Library/WebServer/Documents/AdamBlum.us/config/routes/page/home.json",
+		"/Library/WebServer/Documents/AdamBlum.us/config/routes/page/about.json",
+		"/Library/WebServer/Documents/AdamBlum.us/config/routes/project/test.json",
+		"/Library/WebServer/Documents/AdamBlum.us/content/error/notfound.md",
+		"/Library/WebServer/Documents/AdamBlum.us/config/routes/error/notfound.json",
+		"/Library/WebServer/Documents/AdamBlum.us/content/project/test.md",
+		"/Library/WebServer/Documents/AdamBlum.us/content/page/home.md",
+		"/Library/WebServer/Documents/AdamBlum.us/app/lib/Assets.php",
+		"/Library/WebServer/Documents/AdamBlum.us/site/snippets/header.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/View.php",
+		"/Library/WebServer/Documents/AdamBlum.us/index.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/app.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/Page.php",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/css/global.css",
+		"/Library/WebServer/Documents/AdamBlum.us/package.json",
+		"/Library/WebServer/Documents/AdamBlum.us/app/extensions/Config.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/lib/JSON-Data.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/Router.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/Snippets.php",
+		"/Library/WebServer/Documents/AdamBlum.us/config/router/router.json",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/Application.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/bootstrap.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/extensions/RouteData.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/Config.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/core.php",
+		"/Library/WebServer/Documents/AdamBlum.us/config/application/app.json",
+		"/Library/WebServer/Documents/AdamBlum.us/content/auth/dashboard.md",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/app/modules/markdown.php",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/app/modules/database.php",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/app/core/json_data.php",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/app/bootstrap/core.php",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/app/modules/application.php",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/app/modules/config.php",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/site/views/page/home.md",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/config/settings/application.default.json",
+		"/Library/WebServer/Documents/AdamBlum.us copy 6/config/settings/routes.default.json",
+		"/Library/WebServer/Documents/AdamBlum.us/favicon.ico",
+		"/Library/WebServer/Documents/AdamBlum.us/data/users/admin.json",
+		"/Library/WebServer/Documents/AdamBlum.us/config/settings/default.json",
+		"/Library/WebServer/Documents/AdamBlum.us/app/modules/database.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/config/routes.json",
+		"/Library/WebServer/Documents/AdamBlum.us/site/config/page/home.json",
+		"/Library/WebServer/Documents/AdamBlum.us/site/templates/page.php",
+		"/Library/WebServer/Documents/AdamBlum.us/site/views/auth/dashboard.md",
+		"/Library/WebServer/Documents/AdamBlum.us/app/core/assets.php",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/config/placeholder_image.json",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/config/placeholder_audio.json",
+		"/Library/WebServer/Documents/AdamBlum.us/assets/config/stylesheet-global.json",
+		"/Library/WebServer/Documents/AdamBlum.us/app/config/assets.json",
+		"/Library/WebServer/Documents/AdamBlum.us/app/core/config.php",
+		"/Library/WebServer/Documents/AdamBlum.us/site/views/page/home.md",
+		"/Library/WebServer/Documents/AdamBlum.us/app/core/application.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/core/snippets.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/settings/settings.default.json",
+		"/Library/WebServer/Documents/AdamBlum.us/app/core/markdown.php",
+		"/Library/WebServer/Documents/AdamBlum.us/app/core/page.php",
+		"/Users/adamblum/Documents/Adam.md",
+		"/Users/adamblum/Desktop/website.md",
+		"/Users/adamblum/Documents/Music/Docs/Lyrics/I.md",
+		"/Users/adamblum/Documents/Music/Docs/Lyrics/R.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/eagl_core/_modules.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/eagl_core/_log.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/eagl_core/_config.php",
+		"/Library/WebServer/Documents/AdamBlum.us/style/scss/components/_nav.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/style/scss/util/_vars.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/style/scss/util/_reset.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/style/scss/global.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/README.md",
+		"/Library/WebServer/Documents/AdamBlum.us/error.log",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/eagl_core/_directories.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/eagl_core/_app.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/eagl_modules/router.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/config.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/modules/router.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/modules/template.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/modules/db.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/eagl.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/views/home/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/posts/BareMinimum/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/_core/_eagl_core.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/views/post/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/views/404/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/views/about/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/snippets/page-heading/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/style/scss/type/_text.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/style/scss/modules/_nav.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/templates/header/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/style/scss/layout/_page.scss",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/_config.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/_core/_eagl_app.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/posts/BareMinimum/text.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/data/templates/footer/content.txt",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/modules/view.php",
+		"/Library/WebServer/Documents/AdamBlum.us/template/header.php",
+		"/Library/WebServer/Documents/AdamBlum.us/eagl/modules/page.php",
+		"/Library/WebServer/Documents/AdamBlum.us/template/footer.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vho",
+			"vhosts",
+			" ",
+			"date",
+			"log(\"clear\");"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"log.clear();"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/scss/type/_general.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/scss/type/_paragraph.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								564,
+								564
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/scss/config/_colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "AdamBlum.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

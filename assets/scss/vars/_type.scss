@@ -1,0 +1,68 @@
+
+
+$_type-components: (
+	'text': (
+		'family': 		'Linux Libertine',
+		'leading': 		'1.875',
+		'size': 		'1em'
+	),
+	'heading': (
+		'family': 		'Gill Sans',
+		'leading': 		'1.2',
+	),
+	'nav': (
+		'family': 		'Gill Sans'
+	),
+	'caption': (
+		'family': 		'Gill Sans',
+		'size': 		'0.85em'
+	),
+	'code': (
+		'family': 		'Andale Mono',
+		'size': 		'0.85em'
+	),
+	'codeblock': (
+		'family': 		'Andale Mono',
+		'leading': 		'1.5',
+		'size': 		'0.85em'
+	)
+);
+
+
+$_available-styles: (
+	'normal',
+	'italic',
+	'oblique'
+);
+
+$_available-weights: (
+	'hairline': 		'100',
+	'thin': 			'200',
+	'ultralight': 		'200',
+	'extralight': 		'300',
+	'light': 			'300',
+	'book': 			'300',
+	'regular': 			'400',
+	'medium': 			'100',
+	'semibold': 		'500',
+	'demibold': 		'500',
+	'bold': 			'600',
+	'extrabold': 		'700',
+	'black': 			'800',
+	'extrablack': 		'900',
+	'ultrablack': 		'900'
+);
+
+
+$_opentype-features: (
+	'ligatures': 					'liga',
+	'historical-ligatures': 		'hist',
+	'contextual-alts': 				'calt',
+	'stylistic-alts': 				'salt',
+	'oldstyle-nums': 				'onum',
+	'small-caps': 					'smcp',
+	'caps-to-small-caps': 			'c2sc',
+	'swash': 						'swsh'
+);
+
+

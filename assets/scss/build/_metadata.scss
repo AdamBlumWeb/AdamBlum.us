@@ -1,0 +1,10 @@
+
+// this grabs our metadata and makes a block comment that appears in our CSS file
+/***********************************
+
+	#{map-get($_metadata, 'project')}
+
+	Designed by #{map-get($_metadata, 'author')}
+	Copyright #{map-get($_metadata, 'year')}
+
+***********************************/

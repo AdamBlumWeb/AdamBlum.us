@@ -1,0 +1,120 @@
+
+
+@function FF_font-stack($fallbacks, $type) {
+	$list: 		join($fallbacks, $type);
+	$new-list: 	();
+
+	@each $font in $list {
+		$new-list: append($new-list, $font, comma);
+	}
+	$stack: 	list-to-string($new-list, ', ');
+	@return $stack;
+}
+
+
+
+@function FF_file-name($name, $attrs: false) {
+	$prefix: 	$name;
+	$full: 		null;
+	// is this italic, bold, etc?
+	@if $attrs {// yes it is, add it to the end
+		$styles: 	initial-caps($attrs);
+		$suffix: 	$styles;
+		$full: no-spaces($prefix + $suffix);
+	} @else {// no it's not, don't add anything to the prefix (font family name)
+		$full: no-spaces($prefix);
+	}
+
+	@return $full;
+}
+
+
+
+
+@function FF_font-name($name, $attrs: false) {
+	$prefix: 	$name;
+	$full: 		null;
+	// is this italic, bold, etc?
+	@if $attrs {// yes it is, add it to the end
+		$styles: 	initial-caps($attrs);
+		$suffix: 	$styles;
+		$full: $prefix + ' ' + $suffix;
+	} @else {// no it's not, don't add anything to the prefix (font family name)
+		$full: $prefix;
+	}
+
+	@return $full;
+}
+
+
+
+
+@function FF_postscript-name($name, $attrs: false) {
+	$prefix: 	$name;
+	$full: 		null;
+	// is this italic, bold, etc?
+	@if $attrs {// yes it is, add it to the end
+		$styles: 	initial-caps($attrs);
+		$suffix: 	$styles;
+		$full: no-spaces($prefix + '-' + $suffix);
+	} @else {// no it's not, don't add anything to the prefix (font family name)
+		$full: no-spaces($prefix);
+	}
+
+	@return $full;
+}
+
+
+
+
+
+
+@function FF_font-style($attrs: 'normal') {
+	$name: $attrs;
+	$style: null;
+	$name: null;
+	@if $attrs == false or $attrs == '' or $attrs == ' ' {
+		$name: 'normal';
+	} @else {
+		$name: $attrs;
+	}
+
+	@each $s in $_available-styles {
+		@if str-index($name, $s) {
+			$style: 	$s;
+		}
+	}
+	@if $style {
+		// do nothing, we found an entry in $_available-styles
+	} @else {
+		// default to a style of 'normal'
+		$style: 'normal';
+	}
+	@return $style;
+}
+
+
+
+@function FF_font-weight($attrs: 'regular') {
+	$name: $attrs;
+	$number: null;
+	$name: null;
+	@if $attrs == false or $attrs == '' or $attrs == ' ' {
+		$name: 'regular';
+	} @else {
+		$name: $attrs;
+	}
+
+	@each $w in map-keys($_available-weights) {
+		@if str-index($name, $w) {
+			$number: 	map-get($_available-weights, $w);
+		}
+	}
+	@if $number {
+		// do nothing, we found an entry in $_available-weights
+	} @else {
+		// default to a weight of 'regular', or 400
+		$number: 400;
+	}
+	@return $number;
+}

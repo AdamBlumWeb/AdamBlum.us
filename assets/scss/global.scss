@@ -1,22 +1,121 @@
-@import 		"config/meta";
-@import 		"config/colors";
-@import 		"config/type";
 
-@import			"util/reset";
-@import			"util/vars";
-@import			"util/functions";
-@import			"util/extends";
-@import			"util/mixins";
 
-@import			"type/general";
-@import			"type/paragraph";
-@import			"type/links";
-@import			"type/headings";
-@import			"type/forms";
+@-ms-viewport {
+	width: device-width;
+}
+@-o-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
 
-@import 		"modules/navigation";
-@import 		"modules/postlist";
-@import 		"modules/post";
-@import 		"modules/footer";
 
-@import 		"layout/page";
+// 		information about the project such as the version, author name, etc
+@import 				"config/metadata";
+
+//		project-wide settings such as image url paths, the use of OpenType, etc
+@import 				"config/settings";
+
+
+
+
+
+
+
+//		color variables
+@import 				"vars/colors";
+
+//		puts our colors in a single variable
+@import 				"build/colors";
+
+//		project-wide typographic settings
+@import 				"config/type";
+
+
+
+//		type-related variables
+@import 				"vars/type";
+
+
+
+//		fonts, including their fallbacks and available styles/weights
+@import 				"vars/fonts";
+
+
+
+
+
+
+//		for returning config map values
+@import 				"functions/config";
+
+//		for parsing and formatting strings
+@import 				"functions/strings";
+
+//		for helping create @font-face rules
+@import 				"functions/font-face";
+
+@import 				"functions/media-queries";
+
+@import 				"config/breakpoints";
+
+@import 				"mixins/media-queries";
+
+
+
+
+
+//		puts our metadata in a block comment
+@import 				"build/metadata";
+
+// 		clean slate
+@import 				"utilities/reset";
+
+
+
+
+//		for creating @font-face rules
+@import 				"mixins/font-face";
+
+//		for typography mixins (opentype features, etc)
+@import 				"mixins/type";
+
+
+
+
+
+//		loops through our fonts and creates @font-face rules
+@import 				"build/font-faces";
+
+
+
+@import 				"extends/type";
+
+
+
+// 		setting some basic type stuff in the :root
+@import 				"typography/root";
+
+@import 				"typography/page";
+
+@import 				"typography/paragraph";
+
+@import 				"typography/text";
+
+@import 				"typography/links";
+
+@import 				"typography/headings";
+
+
+@import 				"layout/page";
+
+@import 				"layout/article";
+
+
+@import 				"modules/navigation";
+
+@import 				"modules/footer";
+
+
+@import 				"components/figures";

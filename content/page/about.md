@@ -31,7 +31,10 @@ You can also find me at the following places:
 * [SoundCloud](https://soundcloud.com/adamblummusic) for my music that I record at home
 
 ## Colophon
-The primary typeface used is Georgia, with some Gill Sans and Andale Mono here and there. I created this website from scratch using HTML and CSS, with some help from SASS and Grunt.
+The primary typeface used is Hoefler Text, with some Gill Sans and Andale Mono here and there. I created this website from scratch using HTML and CSS, with some help from SASS and Grunt.
 
 This is `<p>testing</p>` code.
 
+
+
+hello, world! this is `code` dude.

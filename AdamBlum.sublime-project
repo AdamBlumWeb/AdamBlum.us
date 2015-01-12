@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+	"file_exclude_patterns": [
+		"*.ico",
+		"*.swf",
+		"*.tar",
+		"*.tgz",
+		"*.zip"
+	],
+	"folder_exclude_patterns": [
+		"node_modules",
+		".sass-cache"
+	]
+}

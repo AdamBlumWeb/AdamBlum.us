@@ -1,0 +1,30 @@
+abbr {
+	@extend %small-caps;
+}
+
+em, i {
+	font-style: 	italic;
+}
+
+b, strong {
+	font-weight: 	bold;
+}
+
+code {
+	@include type('code');
+	@include in-text() {
+		background-color: 	color('medlite');
+	}
+}
+
+ul, ol {
+	list-style-position: 	outside;
+
+	@include adapt('medium', true) {
+		list-style-position: 	inside;
+	}
+}
+
+ul {
+	list-style-type: 		square;
+}

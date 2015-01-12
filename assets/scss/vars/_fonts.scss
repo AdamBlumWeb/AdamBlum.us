@@ -1,0 +1,41 @@
+
+
+$_fonts: (
+	'Linux Libertine': (
+		'local': 					false,
+		'classification': 			'serif',
+		'opentype-support': 		true,
+		'fallbacks': 	(
+			"Georgia",
+			"Times",
+			"'Times New Roman'"
+		),
+		'styles': (
+			'regular', 'italic'
+		)
+	),
+	'Gill Sans': (
+		'local': 					true,
+		'classification': 			'sans-serif',
+		'opentype-support': 		true,
+		'fallbacks': 	(
+			"'GillSans'",
+			"'Gill Sans MT'",
+			"Calibri"
+		),
+		'styles': (
+			'regular', 'italic', 'bold'
+		)
+	),
+	'Andale Mono': (
+		'local': 					true,
+		'classification': 			'monospace',
+		'opentype-support': 		false,
+		'fallbacks': 	(
+			"AndaleMono"
+		),
+		'styles': (
+			'regular'
+		)
+	)
+);

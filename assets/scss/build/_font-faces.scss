@@ -1,0 +1,10 @@
+
+
+
+
+@each $font-name in setting('active-fonts') {
+	$font: map-get($_fonts, $font-name);
+	@each $attrs in map-get($font, 'styles') {
+		@include font-face($font-name, $attrs);
+	}
+}
