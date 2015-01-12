@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"/>
 	<meta name="description" content="<?php echo $this->description; ?>"/>
+	<link rel="shortcut icon" href="favicon.ico?v=2" />
 	<title><?php echo $this->title; ?> &mdash; Adam Blum</title>
 	<?php
 		$style = new Stylesheet('global-prefixed');
